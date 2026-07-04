@@ -1,18 +1,15 @@
 actuarialmath - Solve Life Contingent Risks with Python
 =======================================================
 
+::
 
-
-.. code-block:: bibtex
-
-    @book{lim2025actuarialmath,
-      author       = {Terence Lim},
-      title        = {Solving Actuarial Math with Python},
-      year         = {2024},
-      url          = {https://terence-lim.github.io/notes/actuarialmath-guide.pdf},
-      note         = {ActuarialMath User Guide and Reference}
-    }
-
+      @book{lim2025actuarialmath,
+        author       = {Terence Lim},
+        title        = {Solving Actuarial Math with Python},
+        year         = {2024},
+        url          = {https://terence-lim.github.io/notes/actuarialmath-guide.pdf},
+        note         = {ActuarialMath User Guide and Reference}
+      }
 
 Lim, Terence (2024). Solving actuarial math with Python. Retrieved from `https://terence-lim.github.io/notes/actuarialmath-guide.pdf <https://terence-lim.github.io/notes/actuarialmath-guide.pdf>`_
 
