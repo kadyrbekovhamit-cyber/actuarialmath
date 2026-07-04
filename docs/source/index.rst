@@ -3,7 +3,7 @@ actuarialmath - Solve Life Contingent Risks with Python
 
 ::
 
-      @book{lim2025actuarialmath,
+      @book{lim2024actuarialmath,
         author       = {Terence Lim},
         title        = {Solving Actuarial Math with Python},
         year         = {2024},
