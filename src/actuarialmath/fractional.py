@@ -140,8 +140,9 @@ class Fractional(Lifetime):
         assert r >= 0, "r must be non-negative"
         assert t >= 0, "t must be non-negative"
         if 0. <= r + t <= 1.:   # shortcuts available within integer ages
-            if self.udd_:       # UDD shortcut: constant q_x
-                return self.q_x(x, s=s)  # does not depend fractional age or duration
+            if self.udd_:       # UDD shortcut
+                q = self.q_x(x, s=s)
+                return q / (1. - r*q)
             else:               # Constant force shortcut:
                 if self.isclose(t):
                     return self.f_x(x=x, s=s)
