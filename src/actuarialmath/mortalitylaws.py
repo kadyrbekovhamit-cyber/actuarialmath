@@ -200,12 +200,11 @@ class Uniform(Beta):
           x : age of selection
           s : years after selection
           t : term of pure endowment
-          endowment : amount of pure endowment
-          moment : compute first or second moment
+          moment : positive moment order, or VARIANCE for the variance
         """
-        assert moment > 0
+        assert moment > 0 or moment == self.VARIANCE
         if t == 0:
-            return 1.
+            return 0. if moment == self.VARIANCE else 1.
         if t < 0:
             return 0.
         t = self.max_term(x+s, t)
